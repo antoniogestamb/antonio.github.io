@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "My Site",
-    "currentPage": "Produtos.html",
+    "name": "Projetos III",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -29,9 +29,7 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": [
-        "#d5f5cd"
-      ]
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.0.2",
@@ -47,11 +45,11 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 26,
+    "uniqCompNum": 33,
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/kisspng-world-bank-international-monetary-fund-world-devel-earth-logo-5b4f2e042dfb10.3455330215319157801884-128x128.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -63,8 +61,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Página de teste",
-        "meta_descr": "Teste",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -97,7 +95,7 @@
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/812553-2000x1125.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#d5f5cd\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Página de teste para geotecnologias</b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Esta página foi criada, basicamente, para questões de testes.&nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"index.html#content1-8\" data-app-placeholder=\"Type Text\">Nosso projeto</a> <a class=\"btn btn-success\" href=\"index.html#map1-k\" data-app-placeholder=\"Type Text\">Veja o mapa</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b><i>Suscetibilidade de Incêndios florestais no município de Jaú(SP)</i></b></h1>\n                <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Os incêndios florestais são uma problemática sensível e apresentam altos números de ocorrência no Brasil, suas consequências, além de ocasionar em danos à área ambiental, ocasiona também às áreas social e econômica. O presente trabalho tem como finalidade, através de sistemas de informações geográficas e sensoriamento remoto, detectar o nível de suscetibilidade a incêndios florestais em áreas do município de Jaú, situado no estado de São Paulo, Brasil. Para a detecção da suscetibilidade, foram correlacionadas as seguintes variáveis: Uso e Cobertura do Solo, Orientação das Vertentes, Hipsometria, Declividade, Pluviosidade e Temperatura. Estas, ponderadas conforme o nível de propensão a incêndios. Diante disso, foi gerada uma carta final, com todas as variáveis correlacionadas, que evidenciou áreas de acordo com suas respectivas suscetibilidades a focos de incêndios, segundo a classificação: Baixa, Média e Alta. O município de Jaú apresentou, segundo a carta gerada, 26,9% de suscetibilidade alta a incêndios florestais, desta forma, o estudo se mostra importante, pois sabendo quais áreas são mais propensas a focos de incêndios, pode-se alocar maiores recursos às mesmas.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Projeto</a> <a class=\"btn btn-black\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Mapas<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s48MCQYojq",
           "_anchor": "header1-f",
           "_protectedParams": [],
@@ -123,13 +121,10 @@
             },
             ".mbr-section-subtitle": {
               "text-align": "left"
-            },
-            ".mbr-section-subtitle P": {
-              "text-align": "center"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Compreendendo o SIG e suas aplicações.</b><b><br></b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Para compreendermos os Sistemas de Informações Geográficas, precisamos correlacionar os dados gerados ao espaço geográfico. Muitos conjuntos de dados ambientais assume a forma de grandes grades multidimensionais, resultando em simulações numéricas que podem ser extraídas pelo saída de dispositivos de sensoriamento remoto, como satélites. Atualmente, há uma forte demanda voltadas para os meios científicos, governamentais, industriais e para o público em geral; estes dados desempenham um forte função quanto ao auxílio para compreensão de fenômenos naturais e/ou de produtividade.</p><br><p><b>Sensoriamento remoto&nbsp;</b></p><p>&nbsp; &nbsp; O Sensoriamento Remoto é uma tecnologia que permite a obtenção de imagens e dados representativos da superfície terrestre por meio da captação da energia refletiva ou emitida pela superfície. Esta ferramenta é capaz de extrair dados para o levantamento territorial urbano e rural, de recursos vegetais e minerais, marinhos e climáticos; sendo possível análises temporais.</p><br><p><br></p><p></p></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>1. Introdução</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><div>\n</div><div>Os incêndios florestais são um problema cada vez mais recorrente no Brasil e no mundo, segundo o Instituto Nacional de Pesquisas Espaciais, no ano de 2015 foram registrados 236.371 focos de calor no Brasil. O grande número de ocorrências expõe o tamanho que a problemática se apresenta atualmente. Segundo a Coordenadoria Estadual de Proteção e Defesa Civil do Maranhão, há várias consequências decorrentes dos incêndios florestais como redução da fertilidade do solo, redução da resistência das árvores ao ataque de pragas, facilitação de processos erosivos, alterações severas dos biótipos, perdas materiais e perdas humanas. Diante disso, é um problema que aflige as esferas ambiental, econômica e social, evidenciando o grau de importância em que a problemática precisa ser abordada. \n</div><div>Há diversas causas que resultam na ocorrência de um incêndio florestal, de acordo com o Centro Especializado de Prevenção e Combate a Incêndios Florestais, a causa dos incêndios florestais são divididas em estruturais, que envolvem fatores ambientais e sociais, e a determinante, que envolve fatores naturais e antrópicos. As causas estruturais envolvem o clima, inflamabilidade do combustível, uso do fogo como ferramenta rural, acúmulo de material combustível no solo florestal, aumento da suscetibilidade das florestas, deficiente espírito conservacionista da população rural, características topográficas, extensão territorial e desconhecimento ou negligência do uso controlado do fogo. De outro modo, as causas determinantes envolvem causa natural, acidental, antrópica por negligência e antrópica de origem intencional. Diante do exposto, as causas são numerosas, fato que dificulta ainda mais a prevenção.\n</div><div>O geoprocessamento é uma ferramenta que auxilia na prevenção e remediação das sequelas causadas pelos incêndios florestais, através dessa ferramenta é possível mapear e sinalizar quais áreas tem maior susceptibilidade a ocorrências de incêndios, desta forma, a alocação de recursos para o combate é mais correta. Através do SIG (Sistema de informação geográfica), é possível analisar, visualizar e sobrepor dados que vão apoiar na tomada de decisões (Vakalis et al., 2004).  \n</div><div>Serão mapeadas as variáveis que tem maior grau de relação com a fragilidade de áreas suscetíveis a ocorrências de incêndios, tais como: uso do solo, orientação das vertentes, declividade, altimetria, temperatura e precipitação, com a finalidade de integrar todas as variáveis e ponderá-las conforme maior grau de risco, gerando um mapa final de suscetibilidade a incêndios florestais (Camargo et al., 2019).\n</div><div>O presente trabalho tem como objetivo, a partir das características pedológicas, morfológicas, climáticas, geográficas, físicas e biológicas do município de Jaú, identificar a suscetibilidade de ocorrências de incêndios florestais, através de técnicas de geoprocessamento.</div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s48udlf8KU",
           "_anchor": "content1-8",
           "_protectedParams": [],
@@ -150,84 +145,20 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            ".row": {
-              "flex-direction": "row-reverse"
-            },
-            "img": {
-              "width": "100%"
-            }
-          },
-          "_name": "image3",
-          "_customHTML": "<section class=\"image3\" group=\"Images\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/mbr-1646x1631.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">&nbsp;&nbsp;</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s48upRUlSD",
-          "_anchor": "image3-9",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             ".mbr-section-title": {
               "text-align": "left"
             },
             ".mbr-section-subtitle": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#000000"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Introdução</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Adicionar introdução P3</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-b",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>2. Metodologia</b><b><br></b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><p>&nbsp;&nbsp;&nbsp;&nbsp;Para elaboração do Carta de Suscetibilidade a Incêndios Florestais, foram vinculadas seis variáveis que segundo Camargo et al. (2019), são fatores condicionantes relacionados a baixa umidade e períodos de estiagem que favorecem o surgimento de focos de incêndios, essas variáveis são: Uso e cobertura do solo, Hipsometria, Declividade, Pluviometria anual média, Temperatura anual média e Orientação das vertentes. Os atributos adquiridos junto a estrutura de dados estão dispostos conforme a tabela 1.</p><br><p><img src=\"data:image/png;base64,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\" data-filename=\"image.png\" style=\"width: 50%; float: none;\"><br></p><p></p><div>&nbsp;&nbsp;&nbsp;&nbsp;Os dados a serem construídos são: Hipsometria, Declividade e Orientação de Encostas elaborados por meio das imagens de Satélite Alos Palsar  com imagens na extensão FBD datada de 2010 com resolução (tamanho do pixel) de 12,5 x 12,5 metros para posteriormente serem extraídos os dados brutos a serem trabalhados em um Plano da Informação.\n</div><div><br></div><div><i>Declividade - A imagem é corrigida através de preenchimento e posteriormente foi usada a ferramenta ‘slope’ com variação percentual, para geração da carta de declividade.\n</i></div><div><i><br></i></div><div><i>Orientação das encostas - Com projeção para sirgas 2000 no sistema de coordenadas UTM na zona 22S, com tamanho do pixel corrigido e posteriormente elaborado com a ferramenta “Aspecto” obtendo como resultado final a orientação das vertentes.\n</i></div><div><i><br></i></div><div><i>Precipitação e Temperatura - Para elaboração dos mapas de Pluviometria e Temperatura correspondentes aos anos de 1970-2000, para isso foram utilizados os dados da organização WorldClim com espaçamento temporal de 30 segundos entre os registros, seguido da projeção para o sistema de coordenadas sirgas 2000 e interpolação IDW para o município de Jaú.\n</i></div><div><i><br></i></div><div><i>Hipsometria - Com base na imagem Alos Palsar com resolução de 12,5 por 12,5 metros, os dados foram classificados em 5 classes com intervalos iguais.&nbsp;</i></div><br><br><br><div><i><b>2.1 Caracterização da área de estudo</b></i></div><br><div>&nbsp;&nbsp;&nbsp;&nbsp;O município de Jaú com área de 687,44km²,está situado no interior do estado de São Paulo - Brasil na latitude 22º17’44’S e longitude 48º33’28’’O com população estimada de 148.581 habitantes e densidade populacional de 191,09&nbsp;hab/km² (IBGE, 2018; IBGE, 2010), com clima tipo&nbsp; subtropical quente e seco (cfa) com pluviometria média acumulada de 1277 mm e temperatura média anual de 20,76ºC&nbsp;extraídos&nbsp;da plataforma&nbsp;WorldClim&nbsp;com dados Pluviométricos e de Temperatura anual médios de 1970-2000<br><br><br></div><p></p></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-c",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
-          "_cid": "s48vaXqeL6",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content1",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Metodologia</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Adicionar métodos P3</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-p",
-          "_isUserblock": true,
-          "_cid": "sjs7hLJKAw",
+          "_cid": "s48vnjULo4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -270,16 +201,79 @@
                   "display": "none"
                 }
               }
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
             }
           },
           "_name": "map1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><p>\n                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Resultado</b><b><br></b></p></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Find us here\n            </h4>\n        </div>\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
-          "_cid": "sjg6JdBJNH",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Mapa de localização do município de Jaú, São paulo.</h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Find us here\n            </h4>\n        </div>\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
+          "_cid": "skZqlheBC8",
           "_anchor": "map1-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\"><b>2.2. Planos de informação</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><p>Variáveis Ambientais individuais a serem utilizadas para elaboração dos resultados, São eles: Uso e cobertura do solo, Orientação de encostas, Temperatura média anual, Precipitação média acumulada, Declividade e Hipsometria do município de Jaú, situado no estado de São Paulo.</p></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-d",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "s48vrXhP0J",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/zxfg-1397x1976.jpg\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Figura 2: Variáveis ambientais para elaboração dos resultados (2019).<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZshnTyGg",
+          "_anchor": "image3-l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -670,7 +664,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#98dee8\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-tv-2015-121x119.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Página de teste<br></a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mobi-mbri mobi-mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Projeto</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content1-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Sobre</a><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content1-b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Aplicações</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"Produtos.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>Dados gerados</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/kisspng-world-bank-international-monetary-fund-world-devel-earth-logo-5b4f2e042dfb10.3455330215319157801884-137x137.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Projetos III - Suscetibilidade a Incêndios</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-cust-feedback mbr-iconfont mbr-iconfont-btn\"></span>Projeto<br></a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"index.html#header1-f\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Introdução</a><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content1-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Metodologia</a><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content5-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Resultados e discussão</a><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content5-w\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\">Conclusão</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
           "_cid": "s48OLK6784",
           "_anchor": "menu1-h",
           "_protectedParams": [],
@@ -681,117 +675,49 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "justify-content": "center",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            }
-          },
-          "_name": "footer3",
-          "_customHTML": "<section class=\"footer3\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://mobirise.com/help/\" class=\"text-success\">Help Center</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"http://forums.mobirise.com/\" class=\"text-success\">Mobirise Forums</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://mobirise.com/\" class=\"text-success\">Mobirise.com</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2020 Mobirise. All Rights Reserved.\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s48P1Icc8J",
-          "_anchor": "footer3-i",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
-        }
-      ]
-    },
-    "Produtos.html": {
-      "settings": {
-        "title": "Dados gerados",
-        "order": 1
-      },
-      "components": [
-        {
-          "alias": false,
-          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "@media (max-width: 991px)": {
-              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
-                "text-align": "center"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@fullWidth)": {
+              ".text-wrapper": {
+                "padding": "1rem"
               }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "left"
             }
           },
-          "_name": "header2",
+          "_name": "image2",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Dados gerados</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Cartas</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sjnI6N55y8",
-          "_anchor": "header2-n",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/1-513x523.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                        Figura 3: Classes de suscetibilidade ambiental (2019).</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>2.3. Elaboração dos Resultados: Carta de Suscetibilidade</b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Ponderação é a atribuição de peso para cada variável ambiental dentro de um plano da informação, os dados são construídos com três classes de suscetibilidade de modo a considerar seus níveis de influência para incidência e propagação das chamas com a ferramenta “reclassificar”, para isso são adotadas classes de suscetibilidade conforme a tabela 3.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZtukPoZ4",
+          "_anchor": "image2-n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -800,394 +726,18 @@
         {
           "alias": false,
           "_styles": {
-            "& when not (@sticky)": {
-              ".navbar-dropdown": {
-                "position": "relative !important"
-              }
-            },
-            "& when (@sticky)": {
-              "z-index": "1000",
-              "width": "100%",
-              "& when not (@transparent)": {
-                "position": "relative",
-                "min-height": "60px"
-              },
-              "nav.navbar": {
-                "position": "fixed"
-              }
-            },
-            ".dropdown-item:before": {
-              "font-family": "Moririse2 !important",
-              "content": "'\\e966'",
-              "display": "inline-block",
-              "width": "0",
-              "position": "absolute",
-              "left": "1rem",
-              "top": "0.5rem",
-              "margin-right": "0.5rem",
-              "line-height": "1",
-              "font-size": "inherit",
-              "vertical-align": "middle",
-              "text-align": "center",
-              "overflow": "hidden",
-              "transform": "scale(0, 1)",
-              "transition": "all 0.25s ease-in-out"
-            },
-            ".dropdown-menu": {
-              "padding": "0"
-            },
-            ".dropdown-item": {
-              "border-bottom": "1px solid #e6e6e6",
-              "&:hover, &:focus": {
-                "background": "@primaryColor !important",
-                "color": "white !important"
-              }
-            },
-            ".nav-dropdown .link": {
-              "padding": "0 0.3em !important",
-              "margin": ".667em 1em !important"
-            },
-            ".nav-dropdown .link.dropdown-toggle::after": {
-              "margin-left": "0.5rem",
-              "margin-top": "0.2rem"
-            },
-            ".nav-link": {
-              "position": "relative"
-            },
-            ".container": {
-              "display": "flex",
-              "margin": "auto"
-            },
-            ".iconfont-wrapper": {
-              "color": "@iconsColor !important",
-              "font-size": "1.5rem",
-              "padding-right": ".5rem"
-            },
-            ".navbar-caption": {
-              "padding-right": "4rem"
-            },
-            ".navbar-nav": {},
-            ".dropdown-menu, .navbar.opened": {
-              "background": "@menuBgColor !important"
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".dropdown .dropdown-menu .dropdown-item": {
-              "width": "auto",
-              "transition": "all 0.25s ease-in-out",
-              "&::after": {
-                "right": "0.5rem"
-              },
-              ".mbr-iconfont": {
-                "margin-left": "-1.8rem",
-                "padding-right": "1rem",
-                "font-size": "inherit",
-                "&:before": {
-                  "display": "inline-block",
-                  "transform": "scale(1, 1)",
-                  "transition": "all 0.25s ease-in-out"
-                }
-              }
-            },
-            ".collapsed": {
-              ".dropdown-menu .dropdown-item:before": {
-                "display": "none"
-              },
-              ".dropdown .dropdown-menu .dropdown-item": {
-                "padding": "0.235em 1.5em 0.235em 1.5em !important",
-                "transition": "none",
-                "margin": "0 !important"
-              }
-            },
-            ".navbar": {
-              "min-height": "77px",
-              "transition": "all .3s",
-              "border-bottom": "1px solid transparent",
-              "&:not(.navbar-short)": {
-                "border-bottom": "1px solid #e6e6e6"
-              },
-              "& when not (@transparent)": {
-                "background": "@menuBgColor"
-              },
-              "& when (@transparent)": {
-                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
-              },
-              "&.opened": {
-                "transition": "all .3s"
-              },
-              ".dropdown-item": {
-                "padding": ".5rem 1.8rem"
-              },
-              ".navbar-logo img": {
-                "width": "auto"
-              },
-              ".navbar-collapse": {
-                "justify-content": "flex-end",
-                "z-index": "1",
-                "& when not (@showItems)": {
-                  "display": "none !important"
-                }
-              },
-              "&.collapsed": {
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  },
-                  "@media (min-width: 992px)": {
-                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
-                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
-                    }
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "55%"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem",
-                  "text-align": "center"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-right": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".nav-item .nav-link::before": {
-                  "display": "none"
-                },
-                "&.opened": {
-                  ".dropdown-menu": {
-                    "top": "0"
-                  }
-                },
-                ".dropdown-menu": {
-                  ".dropdown-submenu": {
-                    "left": "0 !important"
-                  },
-                  ".dropdown-item:after": {
-                    "right": "auto"
-                  },
-                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
-                    "margin-left": "0.5rem",
-                    "margin-top": "0.2rem",
-                    "border-top": "0.35em solid",
-                    "border-right": "0.35em solid transparent",
-                    "border-left": "0.35em solid transparent",
-                    "border-bottom": "0",
-                    "top": "55%"
-                  }
-                },
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3.8rem !important"
-                  }
-                },
-                "ul.navbar-nav": {
-                  "li": {
-                    "margin": "auto"
-                  }
-                },
-                ".dropdown-menu .dropdown-item": {
-                  "padding": ".25rem 1.5rem !important",
-                  "text-align": "center"
-                },
-                ".navbar-brand": {
-                  "flex-shrink": "initial",
-                  "flex-basis": "auto",
-                  "word-break": "break-word",
-                  "padding-right": "2rem"
-                },
-                ".navbar-toggler": {
-                  "flex-basis": "auto"
-                },
-                ".icons-menu": {
-                  "padding-left": "0",
-                  "padding-top": ".5rem",
-                  "padding-bottom": ".5rem"
-                }
-              },
-              "&.navbar-short": {
-                "min-height": "60px",
-                ".navbar-logo": {
-                  "img": {
-                    "height": "3rem !important"
-                  }
-                },
-                ".navbar-brand": {
-                  "padding": "0"
-                }
-              }
-            },
-            ".navbar-brand": {
-              "flex-shrink": "0",
-              "align-items": "center",
-              "margin-right": "0",
-              "padding": "0",
-              "transition": "all .3s",
-              "word-break": "break-word",
-              "z-index": "1",
-              ".navbar-caption": {
-                "line-height": "inherit !important"
-              },
-              ".navbar-logo a": {
-                "outline": "none"
-              }
-            },
-            ".dropdown-item.active, .dropdown-item:active": {
-              "background-color": "transparent"
-            },
-            ".navbar-expand-lg .navbar-nav .nav-link": {
-              "padding": "0"
-            },
-            ".nav-dropdown .link.dropdown-toggle": {
-              "margin-right": "1.667em",
-              "&[aria-expanded=\"true\"]": {
-                "margin-right": "0",
-                "padding": "0.667em 1.667em"
-              }
-            },
-            ".navbar.navbar-expand-lg .dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                ".dropdown-submenu": {
-                  "margin": "0",
-                  "left": "100%"
-                }
-              }
-            },
-            ".navbar .dropdown.open > .dropdown-menu": {
-              "display": "block"
-            },
-            "ul.navbar-nav": {
-              "flex-wrap": "wrap"
-            },
-            ".navbar-buttons": {
-              "text-align": "center",
-              "min-width": "170px"
-            },
-            "button.navbar-toggler": {
-              "outline": "none",
-              "width": "31px",
-              "height": "20px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "position": "relative",
-              "align-self": "center",
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "currentColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".navbar-dropdown": {
-              "padding": ".5rem 1rem",
-              "& when (@sticky)": {
-                "position": "fixed"
-              }
-            },
-            "a.nav-link": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "center"
-            },
-            ".icons-menu": {
-              "flex-wrap": "nowrap",
-              "display": "flex",
-              "justify-content": "center",
-              "padding-left": "1rem",
-              "padding-right": "1rem",
-              "padding-top": "0.3rem",
-              "text-align": "center"
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".navbar": {
-                "height": "77px",
-                "&.opened": {
-                  "height": "auto"
-                }
-              },
-              ".nav-item .nav-link:hover::before": {
-                "width": "175%",
-                "max-width": "calc(100% ~'+' 2rem)",
-                "left": "-1rem"
-              }
-            }
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
           },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#98dee8\">\n    </mbr-parameters>\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-tv-2015-121x119.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Página de teste<br></a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mobi-mbri mobi-mbri-pin mbr-iconfont mbr-iconfont-btn\"></span>Projeto</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content1-8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Sobre</a><a class=\"text-black dropdown-item text-primary\" href=\"index.html#content1-b\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Aplicações</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-black text-primary\" href=\"Produtos.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mobi-mbri mobi-mbri-change-style mbr-iconfont mbr-iconfont-btn\"></span>Dados gerados</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a></div>\n            </div>\n        </div>\n    </nav>\n\n</section>",
-          "_cid": "s48OLK6784",
-          "_anchor": "menu1-l",
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Por fim todos os dados são atrelados a um sistema de ponderação que atribui um nível de suscetibilidade que está relacionado a influência dessas variáveis em dias menos úmidos. A ponderação é uma métrica de peso específico que por fim é dado como a soma ponderada por sobreposição resultando em um mapa de suscetibilidade, esta fórmula é dada pela equação. \n<div>\n</div><div>Suscetibilidade = 30U + 15T + 25P + 10D + 10H + 10E \n</div><div>\n</div><div>Sendo: \n</div><div>U = Coeficiente de susceptibilidade a incêndios florestais segundo o uso da terra; \n</div><div>T = Coeficiente de susceptibilidade a incêndios florestais segundo a temperatura; \n</div><div>P = Coeficiente de susceptibilidade a incêndios florestais segundo a precipitação; \n</div><div>D = Coeficiente de susceptibilidade a incêndios florestais segundo a declividade; \n</div><div>H = Coeficiente de susceptibilidade a incêndios florestais segundo a hipsometria; \n</div><div>E = Coeficiente de susceptibilidade a incêndios florestais segundo a orientação das encostas. \n</div><div>\n</div><div>A carta de suscetibilidade de incêndios de Jaú por validação para avaliação da metodologia empregada, transpondo a carta final para a realidade com focos reais capturados pelo Satélite Aqua_M-T correspondentes aos anos de 2017, 2018 e primeiro semestre de 2019.&nbsp;</div></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">&nbsp;</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZtTNu4aH",
+          "_anchor": "content5-o",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
@@ -1195,81 +745,182 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><b>3. Resultado e discussão \n</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">A integração de seis atributos ambientais permitiu elaborar a Carta de Suscetibilidade de Incêndios Florestais, classificada em 3 níveis de suscetibilidade (Baixa, Média e Alta). Este processo é resultado da ponderação de mecanismos topográficos e climáticos que facilitam a propagação ou aumento da incidência de incêndios florestais.<br><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZugWQ42n",
+          "_anchor": "content5-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "center"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".social-row": {
-              "width": "100%",
-              "justify-content": "center"
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
             },
-            ".media-container-row": {
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "justify-content": "center",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/2-1319x936.jpg\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Figura 4: Carta de Suscetibilidade de Incêndios Florestais de Jaú-SP(2019)</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZuu9MK8x",
+          "_anchor": "image3-q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>Baixa suscetibilidade</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">O índice de baixa suscetibilidade no munícipio de Jaú abrange cerca de 14,55% da área total da região, é influenciada diretamente pela variável combustível, ou seja, os espaços com características urbanas (6,28%) ou com solo exposto (13,18%) apresentaram uma baixa suscetibilidade a incêndios que está localizada principalmente na região central do município, muito disso se deve a pluviosidade de 47,56% ou 326,9km² se enquadra acima de 1300mm por ano dispostas na região Norte, Nordeste e Sudeste do município.\n<br><br>O que determina a intensidade de um incêndio florestal são as características climáticas e de relevo, para McArthur (1962) as principais variáveis estão relacionadas com velocidade do vento que age como condicionante de dispersão, a inclinação do terreno que torna o processo de transferir calor para os combustíveis dispersos nos próximos níveis topográficos até a combustão dos mesmos de modo que quanto maior a inclinação do terreno, mais fácil a propagação das chamas, o tipo de combustível e suas características.\n<br><br>As Orientações de encostas de baixa suscetibilidade (Sul, Sudeste e Sudoeste), correspondem a 44,15% do município, indicando uma maior umidade relativa no local, isso deve-se a incidência de energia solar que é menor, diminuindo as chances de um incêndio por secagem de material-combustível. Jaú é um município que apresenta baixa tortuosidade para aumentar a massa de ar quente e variações bruscas de altitude, cerca de 29,85% do município apresenta temperatura de 20,5ºC se tratando de um município com média constante de temperatura (baixa oscilação).\n<br><br>A relação entre alta pluviosidade e o aumento da biomassa da vegetação, correlacionado à crescente na frequência de incêndios em estações mais secas, isso é explicado pelo aumento da biomassa seca e a diminuição assídua da umidade. Deste modo, é possível apontar que a precipitação afeta diretamente na incidência de incêndios (BRAVO et al, 2010).&nbsp;<br><br><b><br></b><br><b>Média Suscetibilidade</b><br>\n<br>O risco moderado de incêndios florestais estão ligados as pressões antrópicas que estão associadas aos tipos de uso e cobertura do solo, para Omena (2018) são escalações para este critério a malha viária e a proximidade entre as faixas de vegetação, efeito de pressão relacionado a urbanização nestas faixas, os fragmentos florestais que apresentam área e forma irregulares são moderadamente suscetíveis aos riscos de incêndios.\n<br><br>A predominância de risco moderado no município soma cerca de 58,54% da área total do município nos sentidos Norte, Nordeste e Sudeste, a forte presença da monocultura de cana que estão dispersos por todo o município ocupando cerca de 65,50% indicando uma forte pressão latifundiária no município, o plantio de cana gera palhagem e bagaço que a longo prazo se torna um combustível efetivo em casos de escassez de chuvas e altas temperaturas, o aumento da precipitação nesta fração do município e os baixos declives influenciam diretamente contra o aumento da suscetibilidade de incêndios.\n<br> <br><br><b>Alta suscetibilidade\n</b><br><b><br></b>Por fim, a alta suscetibilidade está fracionada em 21,91% da área total do município nas regiões Noroeste, Oeste e Sudoeste com fragmentos de alta influência nas regiões centrais (Centro-oeste, Sul e Sudeste) e a Nordeste devido ao alto declive (45~168%). \n<br><br>As regiões Noroeste e Sudoeste estão sob forte suscetibilidade devido a diferenciação de temperatura (&gt;21,5) e o menor índice médio de pluviosidade anual (1200mm), além da disposição nas extremidades municipais de agricultura e fragmentos irregulares florestais.\n<br><br>A forte influência do cultivo agrícola de cana-de-açúcar na região, aumenta significativamente o risco de incêndios, a presença latifundiária que determina de maneira indireta a volatilidade dos riscos de acordo com as variáveis climáticas (Temperatura, umidade relativa e precipitação) e topográficas, criando um cenário de descontrole de incêndios florestais.\n<br><br>O cultivo agrícola é um fator com alto grau de risco em relação a todo preparo provenientes da agricultura das quais envolvem o manejo e preparo do solo que por muitas das vezes estão associadas ao fogo para a abertura de clareiras. As chamas em regiões agrícolas tendem a se espalhar rapidamente por uma longa parcela de terra e atingir todas as áreas vizinhas, a suscetibilidade aumenta quando submetida aos períodos de seca com aumento da palha e biomassa seca (BEUTLING, 2005; SÁ et al., 2015; SANTOS, 2018).\n<br><br>As Orientações das encostas com médio e alto fator de risco, estão dispostas nas regiões centrais e extremidade norte devido à alta inclinação do terreno o que pode influenciar na propagação rápida do fogo por transferência de radiação térmica e diminuição da umidade por conta da incidência de energia solar.\n<br><br>O aporte de energia solar é um fator fundamental para determinar a temperatura e umidade do ambiente, as distintas feições topográficas geram diferentes vertentes de recebimento de energia solar, diferenciando as regiões (TAKYU &amp; AIBA, 2002).\n<br><br>Regiões que recebem maior insolação possuem temperaturas mais elevadas gerando maiores índices de evapotranspiração da vegetação, acarretando na diminuição da umidade do solo e ar (ROSENBERG, 1974). Regiões com menor incidência solar possuem temperaturas mais amenas e maiores taxas de umidade que se espalham pelo solo e criando sistemas de vegetações mais ricos em função das serapilheiras, criando uma área sombreada (OLIVEIRA et al., 1995).\n<br><br>A temperatura do ar está indiretamente relacionada com baixas taxas de umidade e uma redução na formação de nuvens, aumentando a incidência solar na superfície, assim aumenta significativamente a temperatura que ajuda na disposição na ocorrência de fogo (TORRES, 2006).<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZuIx0Cd5",
+          "_anchor": "content5-r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>3.1 Validação dos resultados&nbsp;</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">A validação da carta foi realizada pela comparação dos focos de incêndios referentes aos anos de 2017, 2018 e primeiro semestre de 2019 capturados pelo satélite Aqua_M-T e a carta final, sendo possível a elaboração de uma carta de densidade de incêndios para cada ano possibilitando uma análise temporal da regularidade dos focos de queimadas.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZvklb3O2",
+          "_anchor": "content5-s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/3-872x617.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Figura 5: Carta de densidade de Incêndios Florestais de Jaú-SP(2019)</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZvyV9FuL",
+          "_anchor": "image3-t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@fullWidth)": {
+              ".text-wrapper": {
+                "padding": "1rem"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem"
               }
             }
           },
-          "_name": "footer3",
-          "_customHTML": "<section class=\"footer3\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://mobirise.com/help/\" class=\"text-success\">Help Center</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"http://forums.mobirise.com/\" class=\"text-success\">Mobirise Forums</a></li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\"><a href=\"https://mobirise.com/\" class=\"text-success\">Mobirise.com</a></li>\n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2020 Mobirise. All Rights Reserved.\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s48P1Icc8J",
-          "_anchor": "footer3-m",
+          "_name": "image2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/4-432x226.png\" alt=\"Mobirise\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                        Figura 5: Carta de densidade de Incêndios Florestais de Jaú-SP(2019)</p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Os focos estão homogeneamente distribuídos por todo território municipal em diferentes faixas de vulnerabilidade, entretanto, é possível contabilizar e transpor tudo em uma grande tabela, obtendo como resultado final conforme indicado na tabela.<br><br>Foram capturados 54 focos de incêndios desde o dia 1 de janeiro de 2017 até 08/07/2019, sendo que do total 55,5% dos focos de incêndios florestais abrangem a área de média suscetibilidade e 24,07% a alta suscetibilidade vinculada aos dados obtidos.</h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">&nbsp;</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZw3pWTNl",
+          "_anchor": "image2-v",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\"><b>4. Conclusão \n</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">O método de Camargo et al. (2018) é eficiente para o monitoramento de áreas que apresentam maior suscetibilidade, além de apresentar um sistema simples e didático para utilização, Jaú é um município extremamente suscetível a incêndios florestais por estar sob uma forte pressão antrópica latifundiária, embora apresente dados climáticos sem variação ríspida e topográficos com dados estáveis segundo os critérios adotado pelos autores.\n<br>\tO sistema se mostrou eficiente para o monitoramento de áreas preservação como Áreas de Preservação Permanente, Reserva Legal, Unidades de conservação que estão próximas de zonas de risco moderado e alto.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "skZwDEHRmd",
+          "_anchor": "content5-w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
